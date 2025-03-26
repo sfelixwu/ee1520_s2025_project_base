@@ -1,0 +1,47 @@
+[
+    {
+        "name": "update",
+        "params": {
+            "updating_json": "string"
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "search",
+        "params": {
+            "search_clause": "string"
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+        {
+        "name": "upload",
+        "params": {
+            "updating_json": {}
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "question",
+        "params": {
+            "question_json": {}
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "dump2json",
+        "params": {
+            "identity": "a string"
+        },
+        "returns": {
+            "status": "code"
+        }
+    }
+]
