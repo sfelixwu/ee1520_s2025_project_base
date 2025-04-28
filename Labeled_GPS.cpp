@@ -3,6 +3,7 @@
 
 Labeled_GPS::Labeled_GPS
 ()
+  : GPS_DD()
 {
   this->class_name = "Labeled_GPS";
   this->label = "default";

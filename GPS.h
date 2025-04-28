@@ -25,7 +25,8 @@ class GPS_DD : public Core
   bool operator==(GPS_DD& another);
   bool operator< (GPS_DD& another);
   
-  virtual Json::Value * dump2JSON(void);
+  Json::Value * dump2JSON(void);
+  // virtual Json::Value * dump2JSON(void);
   virtual void JSON2Object(Json::Value *);
 };
 

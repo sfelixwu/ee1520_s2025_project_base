@@ -20,18 +20,20 @@ CORE_INCS =	Core.h Person.h Post.h Comment.h Reaction.h		\
 		Record.h GPS.h Labeled_GPS.h Commutable.h Team.h	\
 		Holdable.h Locatable.h Message.h OKey.h			\
 		Timed_Location.h ee1520_Common.h ee1520_Exception.h	\
-		Personal_Timed_GPS_Record.h
+		Personal_Timed_GPS_Record.h Locatable_Thing.h		\
+		Traceable_Person.h
 
 CORE_OBJS =	Core.o Person.o Post.o Comment.o Reaction.o		\
 	 	Action.o Link.o JvTime.o Tag.o Thing.o OKey.o		\
 		Record.o GPS.o Labeled_GPS.o Commutable.o Team.o	\
 		Holdable.o Locatable.o ee1520_JSON.o Message.o		\
 		Timed_Location.o ee1520_Exception.o			\
-		Personal_Timed_GPS_Record.o
+		Personal_Timed_GPS_Record.o Locatable_Thing.o		\
+		Traceable_Person.o
 
 # rules to build
 
-all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team
+all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting
 
 #
 #
@@ -53,6 +55,9 @@ ee1520server.o:		ee1520server.cpp ee1520client.h ee1520server.h $(CORE_INCS)
 
 ee1520team.o:		ee1520team.cpp $(CORE_INCS)
 	$(CC) -c $(CFLAGS) ee1520team.cpp
+
+ee1520casting.o:	ee1520casting.cpp $(CORE_INCS)
+	$(CC) -c $(CFLAGS) ee1520casting.cpp
 
 ee1520parse.o:		ee1520parse.cpp $(CORE_INCS)
 	$(CC) -c $(CFLAGS) ee1520parse.cpp
@@ -96,6 +101,9 @@ Team.o:			Team.cpp Team.h $(CORE_INCS)
 Thing.o:		Thing.cpp Thing.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Thing.cpp
 
+Locatable_Thing.o:	Locatable_Thing.cpp Locatable_Thing.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Locatable_Thing.cpp
+
 Locatable.o:		Locatable.cpp Locatable.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Locatable.cpp
 
@@ -110,6 +118,9 @@ Labeled_GPS.o:		Labeled_GPS.cpp Labeled_GPS.h $(CORE_INCS)
 
 Person.o:		Person.cpp Person.h Core.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Person.cpp
+
+Traceable_Person.o:	Traceable_Person.cpp Traceable_Person.h Core.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Traceable_Person.cpp
 
 Post.o:			Post.cpp Post.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Post.cpp
@@ -129,6 +140,9 @@ Link.o:			Link.cpp Link.h $(CORE_INCS)
 Action.o:		Action.cpp Action.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Action.cpp
 
+ee1520casting:		$(CORE_OBJS) ee1520casting.o
+	$(CC) -o ee1520casting $(CORE_OBJS) ee1520casting.o $(LDFLAGS)
+
 ee1520update:		$(CORE_OBJS) ee1520update.o
 	$(CC) -o ee1520update $(CORE_OBJS) ee1520update.o $(LDFLAGS)
 
@@ -146,5 +160,6 @@ ee1520parse:		$(CORE_OBJS) ee1520parse.o
 
 clean:
 	rm -f	*.o *~ core ee1520server ee1520update ee1520search	\
-	      	ee1520server.h ee1520client.h ee1520team ee1520parse
+	      	ee1520server.h ee1520client.h ee1520team ee1520parse	\
+		ee1520casting
 

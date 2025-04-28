@@ -21,8 +21,10 @@ class Personal_Timed_GPS_Record : public Core
  public:
 
   std::string identity;
+  // vector<Timed_Location&> traces;
   vector<Timed_Location> traces;
-
+  // struct Timed_Location traces[2000000];
+  
   Personal_Timed_GPS_Record();
 
   void sort(void);

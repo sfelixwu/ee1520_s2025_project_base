@@ -1,0 +1,3369 @@
+[2024-04-23T16:04:26+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:04:26+0000"
+	}
+}
+
+[2024-04-23T16:04:32+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:04:32+0000"
+	}
+}
+
+[2024-04-23T16:04:33+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:04:33+0000"
+	}
+}
+
+[2024-04-23T16:04:43+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:04:43+0000"
+	}
+}
+
+[2024-04-23T16:04:44+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:04:44+0000"
+	}
+}
+
+[2024-04-23T16:06:23+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:06:23+0000"
+	}
+}
+
+[2024-04-23T16:06:24+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:06:24+0000"
+	}
+}
+
+[2024-04-23T16:07:06+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:06+0000"
+	}
+}
+
+[2024-04-23T16:07:09+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:09+0000"
+	}
+}
+
+[2024-04-23T16:07:12+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Erika, Dancing Queen"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:12+0000"
+	}
+}
+
+[2024-04-23T16:07:15+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Test Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:15+0000"
+	}
+}
+
+[2024-04-23T16:07:23+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Test Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:23+0000"
+	}
+}
+
+[2024-04-23T16:07:24+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team Narwhal"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:24+0000"
+	}
+}
+
+[2024-04-23T16:07:40+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Danielle and Crystal"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:40+0000"
+	}
+}
+
+[2024-04-23T16:07:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Something"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:49+0000"
+	}
+}
+
+[2024-04-23T16:07:50+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Erika, Dancing Queen"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:07:50+0000"
+	}
+}
+
+[2024-04-23T16:08:04+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:08:04+0000"
+	}
+}
+
+[2024-04-23T16:08:28+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Something"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:08:28+0000"
+	}
+}
+
+[2024-04-23T16:08:36+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:08:36+0000"
+	}
+}
+
+[2024-04-23T16:09:08+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:09:08+0000"
+	}
+}
+
+[2024-04-23T16:09:14+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team 10"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:09:14+0000"
+	}
+}
+
+[2024-04-23T16:10:10+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:10:10+0000"
+	}
+}
+
+[2024-04-23T16:10:44+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Somethingthing"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:10:44+0000"
+	}
+}
+
+[2024-04-23T16:19:57+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Epsilon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:19:57+0000"
+	}
+}
+
+[2024-04-23T16:20:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Test Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:20:49+0000"
+	}
+}
+
+[2024-04-23T16:20:54+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Test Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:20:54+0000"
+	}
+}
+
+[2024-04-23T16:22:17+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:22:17+0000"
+	}
+}
+
+[2024-04-23T16:22:41+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922143867",
+			"922236619"
+		],
+		"team name" : "Danielle and Crystal"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:22:41+0000"
+	}
+}
+
+[2024-04-23T16:23:38+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:23:38+0000"
+	}
+}
+
+[2024-04-23T16:24:12+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Somethingthing"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:24:12+0000"
+	}
+}
+
+[2024-04-23T16:24:32+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:24:32+0000"
+	}
+}
+
+[2024-04-23T16:26:14+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922013447",
+			"922370423"
+		],
+		"team name" : "Erindy"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:26:14+0000"
+	}
+}
+
+[2024-04-23T16:26:41+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:26:41+0000"
+	}
+}
+
+[2024-04-23T16:27:08+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922589926",
+			"987654321"
+		],
+		"team name" : "Potato"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:27:08+0000"
+	}
+}
+
+[2024-04-23T16:27:32+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:27:32+0000"
+	}
+}
+
+[2024-04-23T16:27:51+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921147178",
+			"921069926"
+		],
+		"team name" : "NB Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:27:51+0000"
+	}
+}
+
+[2024-04-23T16:28:08+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922589926",
+			"922704303"
+		],
+		"team name" : "Potato"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:28:08+0000"
+	}
+}
+
+[2024-04-23T16:28:59+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922398829",
+			"922218925"
+		],
+		"team name" : "BusinessMajors"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:28:59+0000"
+	}
+}
+
+[2024-04-23T16:29:13+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922628421",
+			"920817166"
+		],
+		"team name" : "Desi Aggies"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:29:13+0000"
+	}
+}
+
+[2024-04-23T16:29:14+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:29:14+0000"
+	}
+}
+
+[2024-04-23T16:29:41+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "ECS36B Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:29:41+0000"
+	}
+}
+
+[2024-04-23T16:29:44+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Kyla"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:29:44+0000"
+	}
+}
+
+[2024-04-23T16:29:46+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922288311",
+			"921172910"
+		],
+		"team name" : "Rock Climbers"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:29:46+0000"
+	}
+}
+
+[2024-04-23T16:30:12+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922143867",
+			"922236619",
+			"921954756"
+		],
+		"team name" : "Danielle, Crystal, and Justin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:30:12+0000"
+	}
+}
+
+[2024-04-23T16:32:29+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922681727",
+			"921818177",
+			"922251775"
+		],
+		"team name" : "Dugtrio"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:32:29+0000"
+	}
+}
+
+[2024-04-23T16:35:17+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:35:17+0000"
+	}
+}
+
+[2024-04-23T16:35:33+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922503041",
+			"922015241"
+		],
+		"team name" : "Epsilon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:35:33+0000"
+	}
+}
+
+[2024-04-23T16:35:33+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Test Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:35:33+0000"
+	}
+}
+
+[2024-04-23T16:36:51+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:36:51+0000"
+	}
+}
+
+[2024-04-23T16:37:40+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922389760",
+			"921933845"
+		],
+		"team name" : "TeamRamen"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:37:40+0000"
+	}
+}
+
+[2024-04-23T16:37:50+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922255250",
+			"Looking for Teammate"
+		],
+		"team name" : "Team X"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:37:50+0000"
+	}
+}
+
+[2024-04-23T16:38:00+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922681727",
+			"921818177",
+			"922251775"
+		],
+		"team name" : "Dugtrio"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:38:00+0000"
+	}
+}
+
+[2024-04-23T16:39:29+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:39:29+0000"
+	}
+}
+
+[2024-04-23T16:39:46+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922681727",
+			"921818177",
+			"922251775"
+		],
+		"team name" : "Lebron James Fan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:39:46+0000"
+	}
+}
+
+[2024-04-23T16:43:14+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:43:14+0000"
+	}
+}
+
+[2024-04-23T16:43:40+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922345270",
+			"922047426"
+		],
+		"team name" : "GusherGremlin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:43:40+0000"
+	}
+}
+
+[2024-04-23T16:43:46+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922503041",
+			"922015241"
+		],
+		"team name" : "Epsilon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:43:46+0000"
+	}
+}
+
+[2024-04-23T16:43:52+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:43:52+0000"
+	}
+}
+
+[2024-04-23T16:44:00+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "T/Ivan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:44:00+0000"
+	}
+}
+
+[2024-04-23T16:44:02+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:44:02+0000"
+	}
+}
+
+[2024-04-23T16:44:15+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922345270",
+			"922047426"
+		],
+		"team name" : "GusherGremlin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:44:15+0000"
+	}
+}
+
+[2024-04-23T16:44:29+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922503041",
+			"922015241"
+		],
+		"team name" : "Epsilon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:44:29+0000"
+	}
+}
+
+[2024-04-23T16:44:50+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team Test"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:44:50+0000"
+	}
+}
+
+[2024-04-23T16:46:22+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922503041",
+			"922015241"
+		],
+		"team name" : "Epsilon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:46:22+0000"
+	}
+}
+
+[2024-04-23T16:46:23+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:46:23+0000"
+	}
+}
+
+[2024-04-23T16:51:11+0000] {
+	"registration" : 
+	{
+		"The Beasts" : "The Beasts",
+		"students" : 
+		[
+			"921008592",
+			"920940101"
+		]
+	},
+	"status" : "failed",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:51:11+0000"
+	}
+}
+
+[2024-04-23T16:51:21+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "snoopy"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:51:21+0000"
+	}
+}
+
+[2024-04-23T16:51:54+0000] {
+	"registration" : 
+	{
+		"The Beasts" : "The Beasts",
+		"students" : 
+		[
+			"921008592",
+			"920940101"
+		]
+	},
+	"status" : "failed",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:51:54+0000"
+	}
+}
+
+[2024-04-23T16:54:10+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "xyz"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:54:10+0000"
+	}
+}
+
+[2024-04-23T16:57:05+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "xyz_new"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:57:05+0000"
+	}
+}
+
+[2024-04-23T16:57:19+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "xyz_new"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T16:57:19+0000"
+	}
+}
+
+[2024-04-23T17:05:37+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "T/Ivan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:05:37+0000"
+	}
+}
+
+[2024-04-23T17:05:41+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"922171444"
+		],
+		"team name" : "Jia Mohan and Jazmyne "
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:05:41+0000"
+	}
+}
+
+[2024-04-23T17:05:42+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922628421",
+			"920817166"
+		],
+		"team name" : "Desi Aggies"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:05:42+0000"
+	}
+}
+
+[2024-04-23T17:05:43+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921883021",
+			"921779575"
+		],
+		"team name" : "Viet-Thy/Ivan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:05:43+0000"
+	}
+}
+
+[2024-04-23T17:05:57+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922288311",
+			"921172910"
+		],
+		"team name" : "Rock Climbers"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:05:57+0000"
+	}
+}
+
+[2024-04-23T17:06:07+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"922171444"
+		],
+		"team name" : "Jia Mohan and Jazmyne "
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:07+0000"
+	}
+}
+
+[2024-04-23T17:06:18+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922503041",
+			"922015241"
+		],
+		"team name" : "Epsilon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:18+0000"
+	}
+}
+
+[2024-04-23T17:06:34+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922345270",
+			"922047426"
+		],
+		"team name" : "GusherGremlin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:34+0000"
+	}
+}
+
+[2024-04-23T17:06:35+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922466120",
+			"987654321"
+		],
+		"team name" : "Lee & Bui"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:35+0000"
+	}
+}
+
+[2024-04-23T17:06:37+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922398829",
+			"922218925"
+		],
+		"team name" : "BusinessMajors"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:37+0000"
+	}
+}
+
+[2024-04-23T17:06:44+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922389760",
+			"921933845"
+		],
+		"team name" : "TeamRamen"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:44+0000"
+	}
+}
+
+[2024-04-23T17:06:52+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Hello"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:52+0000"
+	}
+}
+
+[2024-04-23T17:06:55+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922278985",
+			"919642096"
+		],
+		"team name" : "Team BETA"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:55+0000"
+	}
+}
+
+[2024-04-23T17:06:56+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"918087487",
+			"922171444",
+			"922439018"
+		],
+		"team name" : "Jia Mohan, Jazmyne Newman, and Sharon Wu "
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:56+0000"
+	}
+}
+
+[2024-04-23T17:06:58+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922628421",
+			"920817166"
+		],
+		"team name" : "Desi Aggies"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:06:58+0000"
+	}
+}
+
+[2024-04-23T17:07:05+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921852968",
+			"922205543"
+		],
+		"team name" : "iandanny"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:07:05+0000"
+	}
+}
+
+[2024-04-23T17:08:00+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"920807105",
+			"922006234"
+		],
+		"team name" : "Jacky and Hamim"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:08:00+0000"
+	}
+}
+
+[2024-04-23T17:08:04+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921008592",
+			"920940101"
+		],
+		"team name" : "The Beasts"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:08:04+0000"
+	}
+}
+
+[2024-04-23T17:08:05+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921997195",
+			"922702842"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:08:05+0000"
+	}
+}
+
+[2024-04-23T17:08:20+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"924234871",
+			"922201592"
+		],
+		"team name" : "Lucy and Jessica"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:08:20+0000"
+	}
+}
+
+[2024-04-23T17:08:42+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922681727",
+			"921818177",
+			"922251775"
+		],
+		"team name" : "Lebron James Fan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:08:42+0000"
+	}
+}
+
+[2024-04-23T17:09:01+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921912141",
+			"922398502",
+			"922475179"
+		],
+		"team name" : "Team Tal"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:09:01+0000"
+	}
+}
+
+[2024-04-23T17:09:01+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922500277",
+			"921895585",
+			"921762812"
+		],
+		"team name" : "Monkey Brains"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:09:01+0000"
+	}
+}
+
+[2024-04-23T17:09:23+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922186277",
+			"919534243"
+		],
+		"team name" : "Guangyi Qiu, Luke Zhan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:09:23+0000"
+	}
+}
+
+[2024-04-23T17:09:25+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921997195",
+			"922702842",
+			"922706657"
+		],
+		"team name" : "AAK"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:09:25+0000"
+	}
+}
+
+[2024-04-23T17:09:56+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922489424",
+			"922010932"
+		],
+		"team name" : "Justice League"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:09:56+0000"
+	}
+}
+
+[2024-04-23T17:11:41+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922231038",
+			"922231630"
+		],
+		"team name" : "CSK"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:11:41+0000"
+	}
+}
+
+[2024-04-23T17:11:42+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922160413",
+			"922518065"
+		],
+		"team name" : "Team1"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:11:42+0000"
+	}
+}
+
+[2024-04-23T17:13:19+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922231038",
+			"922231630"
+		],
+		"team name" : "CSK"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:13:19+0000"
+	}
+}
+
+[2024-04-23T17:13:38+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321",
+			"345678901"
+		],
+		"team name" : "Monkey Brains"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:13:38+0000"
+	}
+}
+
+[2024-04-23T17:14:24+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922031076"
+		],
+		"team name" : "Team Orca"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:14:24+0000"
+	}
+}
+
+[2024-04-23T17:14:27+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:14:27+0000"
+	}
+}
+
+[2024-04-23T17:14:28+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921937139",
+			"922021183"
+		],
+		"team name" : "Jasleen+Roshni"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:14:28+0000"
+	}
+}
+
+[2024-04-23T17:16:01+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922031076",
+			"921851105",
+			"921904450"
+		],
+		"team name" : "Team T"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:16:01+0000"
+	}
+}
+
+[2024-04-23T17:17:56+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:17:56+0000"
+	}
+}
+
+[2024-04-23T17:17:58+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"924234871",
+			"922201592",
+			"922198155"
+		],
+		"team name" : "Lucy, Jessica, and Jannah"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:17:58+0000"
+	}
+}
+
+[2024-04-23T17:17:59+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team Test"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:17:59+0000"
+	}
+}
+
+[2024-04-23T17:18:31+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "No.1 Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:18:31+0000"
+	}
+}
+
+[2024-04-23T17:19:01+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922466120",
+			"987654321"
+		],
+		"team name" : "Lee & Bui"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:19:01+0000"
+	}
+}
+
+[2024-04-23T17:19:48+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922327803",
+			"921288765"
+		],
+		"team name" : "No.1 Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:19:48+0000"
+	}
+}
+
+[2024-04-23T17:28:52+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:28:52+0000"
+	}
+}
+
+[2024-04-23T17:29:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921904450",
+			"922031076",
+			"921851105"
+		],
+		"team name" : "Team T"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:29:49+0000"
+	}
+}
+
+[2024-04-23T17:34:21+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922198896",
+			"922077852"
+		],
+		"team name" : "Team Titans"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:34:21+0000"
+	}
+}
+
+[2024-04-23T17:50:21+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T17:50:21+0000"
+	}
+}
+
+[2024-04-23T18:04:48+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T18:04:48+0000"
+	}
+}
+
+[2024-04-23T18:06:00+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T18:06:00+0000"
+	}
+}
+
+[2024-04-23T20:42:03+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922681727",
+			"921818177",
+			"922251775"
+		],
+		"team name" : "Lebron James Fan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T20:42:03+0000"
+	}
+}
+
+[2024-04-23T20:49:57+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922495340",
+			"922475179"
+		],
+		"team name" : "Apple"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T20:49:57+0000"
+	}
+}
+
+[2024-04-23T22:45:16+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922466120",
+			"987654321"
+		],
+		"team name" : "Lee & Bui"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T22:45:16+0000"
+	}
+}
+
+[2024-04-23T22:45:36+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922466120",
+			"922457207"
+		],
+		"team name" : "Lee & Bui"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T22:45:36+0000"
+	}
+}
+
+[2024-04-23T22:46:28+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922466120",
+			"922457207"
+		],
+		"team name" : "Lee & Bui"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T22:46:28+0000"
+	}
+}
+
+[2024-04-23T23:20:27+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T23:20:27+0000"
+	}
+}
+
+[2024-04-23T23:24:00+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921937139",
+			"922021183"
+		],
+		"team name" : "Jasleen+Roshni"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-23T23:24:00+0000"
+	}
+}
+
+[2024-04-24T03:07:35+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"920955332",
+			""
+		],
+		"team name" : "Bowei"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T03:07:35+0000"
+	}
+}
+
+[2024-04-24T04:50:27+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921800787",
+			"922569276"
+		],
+		"team name" : "colin_adam"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T04:50:27+0000"
+	}
+}
+
+[2024-04-24T23:35:20+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team Test"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:35:20+0000"
+	}
+}
+
+[2024-04-24T23:35:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251733",
+			""
+		],
+		"team name" : "BrawlStars"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:35:49+0000"
+	}
+}
+
+[2024-04-24T23:35:56+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921026257",
+			"no 2nd team member yet"
+		],
+		"team name" : "TeamAaron"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:35:56+0000"
+	}
+}
+
+[2024-04-24T23:36:22+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251733",
+			"922251775"
+		],
+		"team name" : "BrawlStars"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:36:22+0000"
+	}
+}
+
+[2024-04-24T23:37:18+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921026257",
+			"no 2nd team member yet"
+		],
+		"team name" : "TeamAaron"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:37:18+0000"
+	}
+}
+
+[2024-04-24T23:38:28+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921800787",
+			"922569276"
+		],
+		"team name" : "colin_adam"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:38:28+0000"
+	}
+}
+
+[2024-04-24T23:42:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921147178",
+			"921069926",
+			"920934735"
+		],
+		"team name" : "NB Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:42:49+0000"
+	}
+}
+
+[2024-04-24T23:42:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251733",
+			"922251775",
+			"921809830"
+		],
+		"team name" : "BrawlStars"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:42:49+0000"
+	}
+}
+
+[2024-04-24T23:42:55+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251733",
+			"922251775",
+			"921809830"
+		],
+		"team name" : "BrawlStars"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:42:55+0000"
+	}
+}
+
+[2024-04-24T23:43:24+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922398829",
+			"922218925",
+			"921216452"
+		],
+		"team name" : "BusinessMajors"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:43:24+0000"
+	}
+}
+
+[2024-04-24T23:49:13+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:49:13+0000"
+	}
+}
+
+[2024-04-24T23:59:28+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-24T23:59:28+0000"
+	}
+}
+
+[2024-04-25T00:03:18+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T00:03:18+0000"
+	}
+}
+
+[2024-04-25T00:03:43+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T00:03:43+0000"
+	}
+}
+
+[2024-04-25T00:03:52+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T00:03:52+0000"
+	}
+}
+
+[2024-04-25T00:04:25+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T00:04:25+0000"
+	}
+}
+
+[2024-04-25T00:04:43+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922250970",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T00:04:43+0000"
+	}
+}
+
+[2024-04-25T00:06:27+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921997195",
+			"922702842",
+			"922706657"
+		],
+		"team name" : "AAK"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T00:06:27+0000"
+	}
+}
+
+[2024-04-25T04:19:10+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251733",
+			"922251775",
+			"921809830"
+		],
+		"team name" : "BrawlStars"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T04:19:10+0000"
+	}
+}
+
+[2024-04-25T18:24:21+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T18:24:21+0000"
+	}
+}
+
+[2024-04-25T18:30:09+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921924126"
+		],
+		"team name" : "Colin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T18:30:09+0000"
+	}
+}
+
+[2024-04-25T19:02:52+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922013447",
+			"922370423",
+			"921924126"
+		],
+		"team name" : "Erindy & Colin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-25T19:02:52+0000"
+	}
+}
+
+[2024-04-26T00:30:54+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921924032",
+			"987654321"
+		],
+		"team name" : "Team 36b"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-26T00:30:54+0000"
+	}
+}
+
+[2024-04-26T00:34:28+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921924032",
+			"987654321"
+		],
+		"team name" : "Team 36b"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-26T00:34:28+0000"
+	}
+}
+
+[2024-04-29T15:52:00+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-29T15:52:00+0000"
+	}
+}
+
+[2024-04-30T19:20:41+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"920991723",
+			"922121559"
+		],
+		"team name" : "Team AP"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-30T19:20:41+0000"
+	}
+}
+
+[2024-04-30T20:31:17+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-30T20:31:17+0000"
+	}
+}
+
+[2024-04-30T20:33:13+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921970206",
+			"922396384"
+		],
+		"team name" : "Anyu"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-30T20:33:13+0000"
+	}
+}
+
+[2024-04-30T21:17:09+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922461837",
+			"922766639",
+			"921339025"
+		],
+		"team name" : "Just Us"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-30T21:17:09+0000"
+	}
+}
+
+[2024-04-30T22:16:11+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-30T22:16:11+0000"
+	}
+}
+
+[2024-04-30T23:35:20+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922364264",
+			"922390160"
+		],
+		"team name" : "SanjithIype_KanvarSidhu"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-04-30T23:35:20+0000"
+	}
+}
+
+[2024-05-01T00:47:12+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"920991723",
+			"922121559"
+		],
+		"team name" : "Team AP"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-01T00:47:12+0000"
+	}
+}
+
+[2024-05-02T18:52:22+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-02T18:52:22+0000"
+	}
+}
+
+[2024-05-02T19:09:44+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921026257",
+			"919293131"
+		],
+		"team name" : "TeamAaronandVi"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-02T19:09:44+0000"
+	}
+}
+
+[2024-05-02T19:09:49+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921026257",
+			"919293131"
+		],
+		"team name" : "TeamAaronandVi"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-02T19:09:49+0000"
+	}
+}
+
+[2024-05-02T21:18:10+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922477737",
+			"921841584"
+		],
+		"team name" : "mnm02"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-02T21:18:10+0000"
+	}
+}
+
+[2024-05-02T21:19:47+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922477737",
+			"921841584",
+			"922218569"
+		],
+		"team name" : "mnm02"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-02T21:19:47+0000"
+	}
+}
+
+[2024-05-02T21:20:21+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922477737",
+			"921841584",
+			"922218569"
+		],
+		"team name" : "mnm02"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-02T21:20:21+0000"
+	}
+}
+
+[2024-05-03T00:17:53+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921970206",
+			"922396384"
+		],
+		"team name" : "Anyu"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-03T00:17:53+0000"
+	}
+}
+
+[2024-05-03T01:03:18+0000] {
+	"registration" : 
+	{
+		"Neel Majmudar" : 
+		[
+			"921931575"
+		],
+		"Varshini Gurushankar" : 
+		[
+			null,
+			"922249127"
+		],
+		"team name" : "Doin2Much"
+	},
+	"status" : "failed",
+	"time" : 
+	{
+		"time" : "2024-05-03T01:03:18+0000"
+	}
+}
+
+[2024-05-03T01:04:07+0000] {
+	"registration" : 
+	{
+		"Neel Majmudar" : 
+		[
+			"921931575"
+		],
+		"Varshini Gurushankar" : 
+		[
+			null,
+			"922249127"
+		],
+		"team name" : "Doin2Much"
+	},
+	"status" : "failed",
+	"time" : 
+	{
+		"time" : "2024-05-03T01:04:07+0000"
+	}
+}
+
+[2024-05-03T01:05:10+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921931575",
+			"922249127"
+		],
+		"team name" : "Doin2Much"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-03T01:05:10+0000"
+	}
+}
+
+[2024-05-23T16:08:33+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"924234871",
+			"922201592",
+			"922198155"
+		],
+		"team name" : "Lucy, Jessica, and Jannah"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:08:33+0000"
+	}
+}
+
+[2024-05-23T16:08:35+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922389760",
+			"921933845"
+		],
+		"team name" : "TeamRamen"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:08:35+0000"
+	}
+}
+
+[2024-05-23T16:08:37+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921904450",
+			"922031076",
+			"921851105"
+		],
+		"team name" : "Team T"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:08:37+0000"
+	}
+}
+
+[2024-05-23T16:08:39+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:08:39+0000"
+	}
+}
+
+[2024-05-23T16:08:46+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922143867",
+			"922439018"
+		],
+		"team name" : "Danielle and Sharon"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:08:46+0000"
+	}
+}
+
+[2024-05-23T16:09:02+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922255250",
+			"922593844"
+		],
+		"team name" : "Team XK"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:09:02+0000"
+	}
+}
+
+[2024-05-23T16:09:08+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922006234",
+			"920807105"
+		],
+		"team name" : "Hamim and Jacky"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:09:08+0000"
+	}
+}
+
+[2024-05-23T16:09:15+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922466120",
+			"922457207"
+		],
+		"team name" : "Lee & Bui"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:09:15+0000"
+	}
+}
+
+[2024-05-23T16:09:24+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:09:24+0000"
+	}
+}
+
+[2024-05-23T16:10:04+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922589926",
+			"922704303"
+		],
+		"team name" : "Potato"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:10:04+0000"
+	}
+}
+
+[2024-05-23T16:10:38+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922255250",
+			"922593844"
+		],
+		"team name" : "Team XK"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:10:38+0000"
+	}
+}
+
+[2024-05-23T16:10:43+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922278985",
+			"919642096"
+		],
+		"team name" : "Team BETA"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:10:43+0000"
+	}
+}
+
+[2024-05-23T16:10:51+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921883021",
+			"921779575"
+		],
+		"team name" : "Viet-Thy and Ivan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:10:51+0000"
+	}
+}
+
+[2024-05-23T16:11:04+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922205543",
+			"921852968"
+		],
+		"team name" : "iandanny"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:11:04+0000"
+	}
+}
+
+[2024-05-23T16:12:06+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921852968",
+			"922205543"
+		],
+		"team name" : "iandanny"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:12:06+0000"
+	}
+}
+
+[2024-05-23T16:12:34+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922198896",
+			"922077852"
+		],
+		"team name" : "Team Titans"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:12:34+0000"
+	}
+}
+
+[2024-05-23T16:22:04+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"921772336",
+			"922025736"
+		],
+		"team name" : "Lions"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:22:04+0000"
+	}
+}
+
+[2024-05-23T16:29:11+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922495340",
+			"922475179"
+		],
+		"team name" : "Apple"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T16:29:11+0000"
+	}
+}
+
+[2024-05-23T17:23:29+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"123456789",
+			"987654321"
+		],
+		"team name" : "My Team Name"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:23:29+0000"
+	}
+}
+
+[2024-05-23T17:26:26+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922398502",
+			"921912141"
+		],
+		"team name" : "AM-LM"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:26:26+0000"
+	}
+}
+
+[2024-05-23T17:29:12+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922681727",
+			"921818177"
+		],
+		"team name" : "Lebron James Fan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:29:12+0000"
+	}
+}
+
+[2024-05-23T17:31:36+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922186277",
+			"919534243"
+		],
+		"team name" : "Guangyi Qiu, Luke Zhan"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:31:36+0000"
+	}
+}
+
+[2024-05-23T17:41:25+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922236619",
+			"921954756"
+		],
+		"team name" : "Crystal & Justin"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:41:25+0000"
+	}
+}
+
+[2024-05-23T17:43:05+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251775",
+			"922251733",
+			"921809830"
+		],
+		"team name" : "Homework_3Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:43:05+0000"
+	}
+}
+
+[2024-05-23T17:44:29+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922251775",
+			"922251733",
+			"921809830"
+		],
+		"team name" : "Homework_3Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T17:44:29+0000"
+	}
+}
+
+[2024-05-23T19:16:10+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922398829",
+			"922218925",
+			"921216452"
+		],
+		"team name" : "BusinessMajorsHW3"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T19:16:10+0000"
+	}
+}
+
+[2024-05-23T21:01:45+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922327803",
+			"921288765",
+			"921321185"
+		],
+		"team name" : "No.1 Team"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T21:01:45+0000"
+	}
+}
+
+[2024-05-23T23:40:25+0000] {
+	"registration" : 
+	{
+		"students" : 
+		[
+			"922477737",
+			"921841584",
+			"922218569"
+		],
+		"team name" : "mnm02"
+	},
+	"status" : "successful",
+	"time" : 
+	{
+		"time" : "2024-05-23T23:40:25+0000"
+	}
+}
+

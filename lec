@@ -1,0 +1,6 @@
+
+  my_local_ptgr.upload(location_jv);
+  GPS_DD my_local_answer = my_local_ptgr.question(jvt_question);
+
+  shadow_object_1001.upload(location_jv);
+  GPS_DD my_remote_answer = shadow_object_1001.question(jvt_question);
