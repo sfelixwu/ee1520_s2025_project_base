@@ -46,20 +46,20 @@ Labeled_GPS::dump2JSON
 
   // option #2
   // force the compiler to link to the parent version of dump2JSON()
-  
-  Json::Value * result_ptr = this->GPS_DD::dump2JSON();
-  if (result_ptr == NULL) return NULL;
-  
+
   // the following is a wrong option
   // Json::Value result = ((GPS_DD *) this)->dump2JSON();
   // Json::Value result = ((GPS_DD&) (*this)).dump2JSON();
   // Json::Value result = (*((GPS_DD *) this)).dump2JSON();
   
+  Json::Value * result_ptr = this->GPS_DD::dump2JSON(); // <---
+  // Json::Value * result_ptr = this->dump2JSON(); // infinite recursion --> SegFault
+  
+  if (result_ptr == NULL) return NULL; // defensive programmer
   if (this->label != "default")
     {
       (*result_ptr)["label"] = this->label;
     }
-
   return result_ptr;
 }
 

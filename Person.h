@@ -20,6 +20,9 @@ public:
   std::string vsID;
   std::string name;
   GPS_DD * home;
+
+  // GPS_DD current_Location; // option #1
+  // Thing  phone;            // option #2
   
   Person(std::string, std::string);
   Person(std::string, std::string, GPS_DD *);

@@ -70,6 +70,10 @@
 // Step 2: the action (How objects should interact with each other?)
 
 // Design consideration -- GPS location of a person or a device associated with a person?
+
+// option #1: GPS <--> Person
+// option #2: GPS <--> Phone <--> Person
+
 // Also, can a person (or a bus) have multiple devices? (i.e., multiple locations)
 // How about a location of a group of people [e.g., a family] or a group of cars?
 // I put my phone (or one of my phones) on a drone (to take pictures) or a robot

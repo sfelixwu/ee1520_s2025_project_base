@@ -145,11 +145,9 @@ GPS_DD::dump2JSON
 (void)
 {
   // printf("GPS_DD dump2JSON start\n");
-  Json::Value * result_ptr = new Json::Value();
-
+  Json::Value * result_ptr = new Json::Value(); // <---
   (*result_ptr)["latitude"]  = this->latitude;
   (*result_ptr)["longitude"] = this->longitude;
-
   return result_ptr;
 }
 
