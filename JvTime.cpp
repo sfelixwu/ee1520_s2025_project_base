@@ -127,8 +127,10 @@ JvTime::getTimeString
 
   char buffer[128];
   bzero(buffer, 128);
+  char buffer_dst[128];
+  bzero(buffer_dst, 128);
   std::strftime(buffer, 32, "%Y-%m-%dT%H:%M:%S+", tm_ptr);
-  snprintf(buffer, strlen(buffer) + strlen(this->tail4) + 1,
+  snprintf(buffer_dst, strlen(buffer) + strlen(this->tail4) + 1,
 	   "%s%s", buffer, this->tail4);
   return (new std::string(buffer));
 }

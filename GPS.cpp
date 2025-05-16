@@ -162,8 +162,8 @@ GPS_DD::JSON2Object
   JSON2Object_precheck(arg_json_ptr, lv_exception_ptr,
 		       EE1520_ERROR_JSON2OBJECT_GPS_DD);
   
-  if ((((*arg_json_ptr)["latitude"]).isNull() == true) ||
-      (((*arg_json_ptr)["latitude"]).isDouble() != true))
+  if ((((*arg_json_ptr)["latitude"]).isNull() == true) || // missing key-value "latitude"
+      (((*arg_json_ptr)["latitude"]).isDouble() != true)) // the value is NOT double
     {
       ei_ptr = new Exception_Info {};
       ei_ptr->where_code = EE1520_ERROR_JSON2OBJECT_GPS_DD;
@@ -185,6 +185,8 @@ GPS_DD::JSON2Object
     }
   else
     {
+      // [1] ((*arg_json_ptr)["latitude"])
+      // [2] .asDouble();
       this->latitude = ((*arg_json_ptr)["latitude"]).asDouble();
       if (((this->latitude) > 90.0) || ((this->latitude) < -90.0))
 	{

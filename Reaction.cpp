@@ -117,6 +117,8 @@ Reaction::JSON2Object
     }
   else
     {
+      // [1] ((*arg_json_ptr)["type"])
+      // [2] .asString();
       this->type = ((*arg_json_ptr)["type"]).asString();
     }
 

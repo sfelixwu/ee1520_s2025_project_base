@@ -105,6 +105,8 @@ Labeled_GPS::JSON2Object
     }
   else
     {
+      // [1] ((*arg_json_ptr)["label"])
+      // [2] .asString();
       this->label = ((*arg_json_ptr)["label"]).asString();
     }
 

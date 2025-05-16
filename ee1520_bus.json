@@ -1,0 +1,54 @@
+[
+    {
+        "name": "dumpAll",
+        "params": {
+            "action": "dumpAll"
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "move",
+        "params": {
+            "action": "move",
+	    "object" : { }
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "associate",
+        "params": {
+	    "action" : "associate",
+	    "host"   : { }, 
+            "guest"  : { }
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "disassociate",
+        "params": {
+	    "action" : "disassociate",
+	    "host"   : { }, 
+            "guest"  : { }
+        },
+        "returns": {
+            "status": "code"
+        }
+    },
+    {
+        "name": "dump2JSON",
+        "params": {
+	    "action" : "dump2JSON",
+	    "class"  : "class name",
+	    "object" : "object id"
+        },
+        "returns": {
+            "status": "code"
+        }
+    }
+]

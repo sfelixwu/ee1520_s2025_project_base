@@ -33,10 +33,24 @@ CORE_OBJS =	Core.o Person.o Post.o Comment.o Reaction.o		\
 
 # rules to build
 
-all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting
+all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting	\
+	ee1520control ee1520NCKUEE ee1520NCKUHospital ee1520NCKUChangRongStation
 
 #
 #
+
+ee1520BUSclient.h:	ee1520_bus.json
+	jsonrpcstub ee1520_bus.json --cpp-server=ee1520BUSServer --cpp-client=ee1520BUSClient
+
+ee1520BUSserver.h:	ee1520_bus.json
+	jsonrpcstub ee1520_bus.json --cpp-server=ee1520BUSServer --cpp-client=ee1520BUSClient
+
+ee1520control.o:	ee1520control.cpp ee1520BUSclient.h ee1520BUSserver.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) ee1520control.cpp
+
+ee1520control:		$(CORE_OBJS) ee1520control.o
+	$(CC) -o ee1520control $(CORE_OBJS) ee1520control.o $(LDFLAGS)
+
 
 ee1520client.h:		ee1520_s2025.json
 	jsonrpcstub ee1520_s2025.json --cpp-server=ee1520Server --cpp-client=ee1520Client
@@ -141,7 +155,14 @@ Action.o:		Action.cpp Action.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Action.cpp
 
 ee1520casting:		$(CORE_OBJS) ee1520casting.o
-	$(CC) -o ee1520casting $(CORE_OBJS) ee1520casting.o $(LDFLAGS)
+	$(CC) $(CORE_OBJS) ee1520casting.o $(LDFLAGS)
+
+# Linking the following three stuffs ==> into one single executable
+# $(CORE_OBJS)
+# ee1520casting.o
+# $(LDFLAGS)
+
+# $(CC)              -o ee1520casting $(CORE_OBJS) ee1520casting.o $(LDFLAGS)
 
 ee1520update:		$(CORE_OBJS) ee1520update.o
 	$(CC) -o ee1520update $(CORE_OBJS) ee1520update.o $(LDFLAGS)
