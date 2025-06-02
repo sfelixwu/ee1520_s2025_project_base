@@ -16,8 +16,8 @@ Locatable_Thing::dump2JSON
 
   if (result_ptr != NULL)
     {
-      printf("Thing dump2JSON from Core --\n");
-      std::cout << (*result_ptr) << std::endl;
+      // printf("Thing dump2JSON from Core --\n");
+      // std::cout << (*result_ptr) << std::endl;
     }
   else
     {
@@ -25,7 +25,6 @@ Locatable_Thing::dump2JSON
     }
 
   (*result_ptr)["location"] = (*((this->location).dump2JSON()));
-
   return result_ptr;
 }
 
@@ -40,7 +39,8 @@ Locatable_Thing::JSON2Object
 
   JSON2Object_precheck(arg_json_ptr, lv_exception_ptr,
 		       EE1520_ERROR_JSON2OBJECT_THING);
-  
+
+  // handling the base class stuff -- Thing
   try
     {
       this->Thing::JSON2Object(arg_json_ptr);
@@ -50,7 +50,7 @@ Locatable_Thing::JSON2Object
       JSON2Object_appendEI(e, lv_exception_ptr, 0);
     }
   
-  // "url"
+  // "location"
   if (((*arg_json_ptr)["location"].isNull() == true) ||
       ((*arg_json_ptr)["location"].isObject() == false))
     {
@@ -74,8 +74,14 @@ Locatable_Thing::JSON2Object
     }
   else
     {
-      // later
-      // this->url = ((*arg_json_ptr)["location"]).asString();
+      try
+	{
+	  (this->location).JSON2Object(&((*arg_json_ptr)["location"]));
+	}
+      catch(ee1520_Exception e)
+	{
+	  JSON2Object_appendEI(e, lv_exception_ptr, 0);
+	}
     }
 
   if ((lv_exception_ptr->info_vector).size() != 0)

@@ -65,6 +65,13 @@
 //     },
 //  ]}
 
+// how should we represent a video recording?
+// { "youtube link" : "https://www.youtube.com/watch?v=XVuOTTD8KXk",
+//   "date" : "05-12-2025", "duration start" : 5, "duration end" : 345678 }
+
+// ==> C++ class
+// ==> actions associated with this C++ class (member functions)
+
 // The issue of CASTing!!
 
 // Step 2: the action (How objects should interact with each other?)
@@ -83,6 +90,73 @@
 // But, we should start it with something SIMPLE (first -- for hw2-3 at least)
 // "One device per person"
 
+// "The ee1520 lecture on Monday, April 14 of 2025 ended at 2 pm in the EE Building at NCKU. The instructor"
+
+// {“name” : “Felix Wu”, “occupation” : “instructor”,
+//  "phone" : {"location" : {"latitude" : 22.996776239105127, "longitude": 120.2224149947794}},
+//  “GPS trace”: [
+//     {"time" : “2025-04-14T14:00:00+0000”,
+//      "location":
+//       {
+//        "latitude" : 22.996776239105127,
+//        "longitude" : 120.2224149947794,
+//        "label" : "EE Building"
+//       }
+//     }
+//  ]}
+
+// "The instructor took the Bus 77 from the Zi-Chiang campus Chang-Rong Station, leaving at 2:30 pm."
+
+// {“name” : “Felix Wu”, “occupation” : “instructor”,
+//  "phone" : {"location" : {"latitude": 22.998079888745632, "longitude": 120.22216823155932}},
+//  “GPS trace”: [
+//     {"time" : “2025-04-14T14:00:00+0000”,
+//      "location":
+//       {
+//        "latitude" : 22.996776239105127,
+//        "longitude" : 120.2224149947794,
+//        "label" : "EE Building"
+//       }
+//     },
+//     {"time" : “2025-04-14T14:30:00+0000”,
+//      "location":
+//       {
+//        "latitude" : 22.998079888745632,
+//        "longitude" : 120.22216823155932,
+//        "label" : "Chang-Rong Station"
+//       }
+//     }
+//  ]}
+
+// { "route" : "77",
+//   "driver" : { "name" : "Tiffany",
+//                "occupation" : "student",
+//                "phone" : { "location" : "Chang-Rong"}}
+//   "passengers" : [
+//       {“name” : “Felix Wu”, “occupation” : “instructor”,
+//        "phone" : {"location" : {Chang-Rong Station}},
+//        “GPS trace”: [
+//            {"time" : “2025-04-14T14:00:00+0000”,
+//             "location":
+//                 {
+//                   "latitude" : 1.0,
+//                   "longitude" : -1.0,
+//                   "label" : "EE Building"
+//                 }
+//            },
+//            {"time" : “2025-04-14T14:30:00+0000”,
+//             "location":
+//                {
+//                  "latitude" : 1.0,
+//                  "longitude" : -1.0,
+//                  "label" : "Chang-Rong Station"
+//                }
+//           }
+//        ]},
+//      { another student/passenger  }
+//   ]
+// }
+
 
 #include "Person.h"
 #include "Personal_Timed_GPS_Record.h"
@@ -99,7 +173,8 @@ public:
   // something else
   std::string occupation;
   Personal_Timed_GPS_Record GPS_trace;
-  Locatable_Thing *phone;
+  Locatable_Thing *phone;               // design option #2 (preferrable)
+  // GPS_DD current_Location;           // design option #1
   
   // constructor
   Traceable_Person(std::string, std::string);
@@ -108,7 +183,6 @@ public:
   ~Traceable_Person();
 
   // something else
-  
   // virtual Json::Value * dump2JSON(void);
   // virtual void JSON2Object(Json::Value *);
 };

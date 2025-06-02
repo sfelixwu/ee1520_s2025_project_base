@@ -33,9 +33,9 @@ CORE_OBJS =	Core.o Person.o Post.o Comment.o Reaction.o		\
 
 # rules to build
 
-all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting	\
-	ee1520control ee1520NCKUEE ee1520NCKUHospital ee1520NCKUChangRongStation
+all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting
 
+#	ee1520control ee1520NCKUEE ee1520NCKUHospital ee1520NCKUChangRongStation
 #
 #
 

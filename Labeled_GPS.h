@@ -77,8 +77,8 @@ class Labeled_GPS : public GPS_DD
   bool operator==(Labeled_GPS&);
 
   virtual bool setGPSLabel(std::string);
-  Json::Value * dump2JSON(void);
-  // virtual Json::Value * dump2JSON(void);
+  // Json::Value * dump2JSON(void);
+  virtual Json::Value * dump2JSON(void);
   virtual void JSON2Object(Json::Value *);
 };
 

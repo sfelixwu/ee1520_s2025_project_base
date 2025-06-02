@@ -243,24 +243,18 @@ Comment::JSON2Object
     }
   else
     {
+      // you passed!!
       try
 	{
-	  // printf("Comment Here 2.1\n");
 	  if (this->author == NULL)
 	    {
-	      // printf("Comment Here 2.2\n");
-	      this->author = new Person();
-	      // printf("Comment Here 2.3\n");
+	      this->author = new Person(); // I created a blank Person object!
 	    }
-	  // printf("Comment Here 2.4\n");
 	  (this->author)->JSON2Object(&((*arg_json_ptr)["from"]));
-	  // printf("Comment Here 2.5\n");
 	}
       catch(ee1520_Exception& e)
 	{
-	  // printf("Comment Here 2.6\n");
 	  JSON2Object_appendEI(e, lv_exception_ptr, 0);
-	  // printf("Comment Here 2.7\n");
 	}
     }
 
