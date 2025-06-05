@@ -4,7 +4,6 @@
 Coupon::Coupon
 (std::string arg_s, std::string arg_c, Core * arg_f, Core * arg_t,
  Product *arg_p, JvTime *arg_ex, double arg_discount)
-  : Message { arg_s, arg_c, arg_f, arg_t }
 {
   this->expiration = arg_ex;
   this->product = arg_p;
@@ -14,10 +13,11 @@ Coupon::Coupon
     this->discount = 1.0;
 }
 
-Json::Value * Coupon::dumpJ
+Json::Value * Coupon::dump2JSON
 (void)
 {
-  Json::Value *result_ptr = this->Message::dumpJ();
+  // Json::Value *result_ptr = this->Message::dump2JSON();
+  Json::Value *result_ptr = new Json::Value();
 
   if (this->expiration != NULL)
     {
@@ -28,13 +28,15 @@ Json::Value * Coupon::dumpJ
 
   if (this->product != NULL)
     {
-      Json::Value jv = *((this->product)->dumpJ());
+      Json::Value jv = *((this->product)->dump2JSON());
       if ((jv.isNull() != true) &&
 	  (jv.isObject() == true))
 	(*result_ptr)["product"] = jv;
     }
 
   (*result_ptr)["discount"] = this->discount;
+  (*result_ptr)["subject"]  = "Coupon";
+  (*result_ptr)["content"]  = "Coupon";
 
   return result_ptr;
 }

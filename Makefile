@@ -21,7 +21,10 @@ CORE_INCS =	Core.h Person.h Post.h Comment.h Reaction.h		\
 		Holdable.h Locatable.h Message.h OKey.h			\
 		Timed_Location.h ee1520_Common.h ee1520_Exception.h	\
 		Personal_Timed_GPS_Record.h Locatable_Thing.h		\
-		Traceable_Person.h
+		Traceable_Person.h					\
+		Transaction.h Coupon.h Credential.h Target.h Relation.h	\
+		Fridge.h Grocery.h Item.h Space.h Storage.h Revision.h	\
+		Product.h Recommendation.h IP.h
 
 CORE_OBJS =	Core.o Person.o Post.o Comment.o Reaction.o		\
 	 	Action.o Link.o JvTime.o Tag.o Thing.o OKey.o		\
@@ -29,11 +32,15 @@ CORE_OBJS =	Core.o Person.o Post.o Comment.o Reaction.o		\
 		Holdable.o Locatable.o ee1520_JSON.o Message.o		\
 		Timed_Location.o ee1520_Exception.o			\
 		Personal_Timed_GPS_Record.o Locatable_Thing.o		\
-		Traceable_Person.o
+		Traceable_Person.o					\
+		Transaction.o Coupon.o Credential.o Target.o Relation.o	\
+		Fridge.o Grocery.o Item.o Space.o Storage.o Revision.o	\
+		Product.o Recommendation.o IP.o
 
 # rules to build
 
-all: 	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting
+all: 	ysd_grocery 		\
+	ee1520server ee1520update ee1520search ee1520parse ee1520team ee1520casting
 
 #	ee1520control ee1520NCKUEE ee1520NCKUHospital ee1520NCKUChangRongStation
 #
@@ -57,6 +64,9 @@ ee1520client.h:		ee1520_s2025.json
 
 ee1520server.h:		ee1520_s2025.json
 	jsonrpcstub ee1520_s2025.json --cpp-server=ee1520Server --cpp-client=ee1520Client
+
+ysd_grocery.o:		ysd_grocery.cpp $(CORE_INCS)
+	$(CC) -c $(CFLAGS) ysd_grocery.cpp
 
 ee1520update.o:		ee1520update.cpp ee1520client.h ee1520server.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) ee1520update.cpp
@@ -96,6 +106,46 @@ Commutable.o:		Commutable.cpp Commutable.h $(CORE_INCS)
 
 Transaction.o:		Transaction.cpp Transaction.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Transaction.cpp
+
+Target.o:		Target.cpp Target.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Target.cpp
+
+Relation.o:		Relation.cpp Relation.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Relation.cpp
+
+Fridge.o:		Fridge.cpp Fridge.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Fridge.cpp
+
+Grocery.o:		Grocery.cpp Grocery.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Grocery.cpp
+
+Item.o:		Item.cpp Item.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Item.cpp
+
+Space.o:		Space.cpp Space.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Space.cpp
+
+Storage.o:		Storage.cpp Storage.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Storage.cpp
+
+Revision.o:		Revision.cpp Revision.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Revision.cpp
+
+Product.o:		Product.cpp Product.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Product.cpp
+
+IP.o:		IP.cpp IP.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) IP.cpp
+
+Recommendation.o:	Recommendation.cpp Recommendation.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Recommendation.cpp
+
+
+Coupon.o:		Coupon.cpp Coupon.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Coupon.cpp
+
+Credential.o:		Credential.cpp Credential.h $(CORE_INCS)
+	$(CC) -c $(CFLAGS) Credential.cpp
 
 Personal_Timed_GPS_Record.o:	Personal_Timed_GPS_Record.cpp ee1520client.h $(CORE_INCS)
 	$(CC) -c $(CFLAGS) Personal_Timed_GPS_Record.cpp
@@ -178,6 +228,9 @@ ee1520team:		$(CORE_OBJS) ee1520team.o
 
 ee1520parse:		$(CORE_OBJS) ee1520parse.o
 	$(CC) -o ee1520parse $(CORE_OBJS) ee1520parse.o $(LDFLAGS)
+
+ysd_grocery:		$(CORE_OBJS) ysd_grocery.o
+	$(CC) -o ysd_grocery $(CORE_OBJS) ysd_grocery.o $(LDFLAGS)
 
 clean:
 	rm -f	*.o *~ core ee1520server ee1520update ee1520search	\

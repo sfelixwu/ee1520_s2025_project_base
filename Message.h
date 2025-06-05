@@ -12,7 +12,10 @@ class Message : public Core
  protected:
  public:
   
+  std::string subject;
   std::string content;
+  JvTime *when;
+
   Message(void);
   Message(std::string arg_s);
   void setContent(std::string arg_s);

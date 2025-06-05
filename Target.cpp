@@ -6,7 +6,7 @@ Target::Target
 {
 }
 
-Json::Value * Target::dumpJ
+Json::Value * Target::dump2JSON
 (void)
 {
   return NULL;

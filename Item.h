@@ -21,7 +21,7 @@ class Item : public Target
   double ratio;
   
   Item(void);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _ITEM_H_ */

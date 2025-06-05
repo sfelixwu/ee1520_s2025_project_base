@@ -14,7 +14,7 @@ class Grocery: public Space
   std::map<std::string, Storage *> * sections;
 
   Grocery(void);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _GROCERY_H_ */

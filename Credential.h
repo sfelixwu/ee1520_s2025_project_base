@@ -16,7 +16,7 @@ class Credential : public Message
   std::string keyword;
   Credential(std::string arg_s, std::string arg_c, Core * arg_f, Core * arg_t,
 	 std::string arg_k, JvTime * arg_ex);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _CREDENTIAL_H_ */

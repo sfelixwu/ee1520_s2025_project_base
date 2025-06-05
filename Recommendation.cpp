@@ -4,16 +4,16 @@
 Recommendation::Recommendation
 (std::string arg_s, std::string arg_c, Relation * arg_f, Core * arg_t,
  std::string arg_k, JvTime *arg_ex)
-  : Message { arg_s, arg_c, (Core *) arg_f, arg_t }
+  : Message { arg_s }
 {
   this->expiration = arg_ex;
   this->keyword    = arg_k;
 }
 
-Json::Value * Recommendation::dumpJ
+Json::Value * Recommendation::dump2JSON
 (void)
 {
-  Json::Value *result_ptr = this->Message::dumpJ();
+  Json::Value *result_ptr = this->Message::dump2JSON();
 
   if (this->expiration != NULL)
     {

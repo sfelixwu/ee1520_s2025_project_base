@@ -14,7 +14,7 @@ Product::Product
 {
 }
 
-Json::Value * Product::dumpJ
+Json::Value * Product::dump2JSON
 (void)
 {
   Json::Value *result_ptr = new Json::Value();

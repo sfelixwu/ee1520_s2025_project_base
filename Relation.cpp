@@ -4,7 +4,6 @@
 Relation::Relation
 (std::string core_arg_host_url, std::string core_arg_owner_vsID,
  std::string core_arg_class_id, std::string core_arg_object_id)
-  : Core { core_arg_host_url, core_arg_owner_vsID, core_arg_class_id, core_arg_object_id }
 {
 }
 

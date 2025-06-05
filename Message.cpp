@@ -4,14 +4,18 @@
 Message::Message
 (void)
 {
+  this->subject = "";
   this->class_name = "Message";
   this->content = "";
+  this->when = getNowJvTime();
 }
 
 Message::Message(std::string arg_s)
 {
+  this->subject = "";
   this->class_name = "Message";
   this->content = arg_s;
+  this->when = getNowJvTime();
 }
 
 void

@@ -21,8 +21,7 @@ Transaction::Transaction(std::string core_arg_host_url, std::string core_arg_own
 			 std::string core_arg_class_id, std::string core_arg_object_id,
 			 unsigned int arg_type, Person * arg_agent,
 			 GPS_DD * arg_where, IP_Address * arg_src, JvTime * arg_when)
-  : Core { core_arg_host_url, core_arg_owner_vsID, core_arg_class_id, core_arg_object_id },
-    type { arg_type }, when { arg_when }, agent { arg_agent },
+  : type { arg_type }, when { arg_when }, agent { arg_agent },
     where { arg_where }, srcIP { arg_src }
 {
   transaction_count++;
@@ -37,7 +36,6 @@ Transaction::Transaction(std::string core_arg_host_url, std::string core_arg_own
 
 Transaction::Transaction(std::string core_arg_host_url, std::string core_arg_owner_vsID,
 			 std::string core_arg_class_id, std::string core_arg_object_id)
-  : Core { core_arg_host_url, core_arg_owner_vsID, core_arg_class_id, core_arg_object_id }
 {
   transaction_count++;
   std::cout << "Core Constructor" << std::endl;
@@ -50,7 +48,7 @@ Transaction::Transaction(std::string core_arg_host_url, std::string core_arg_own
 }
 
 Json::Value *
-Transaction::dumpJ()
+Transaction::dump2JSON()
 {
   if (this->agent == NULL)
     {
@@ -58,19 +56,19 @@ Transaction::dumpJ()
       return NULL;
     }
 
-  Json::Value * result_ptr = (this->agent)->dumpJ();
+  Json::Value * result_ptr = (this->agent)->dump2JSON();
 
   // (*result_ptr)["type"] = this->type;
   // (*result_ptr)["status"] = this->type;
 
   if (this->where != NULL)
     {
-      (*result_ptr)["location"] = *((this->where)->dumpJ());
+      (*result_ptr)["location"] = *((this->where)->dump2JSON());
     }
 
   if (this->srcIP != NULL)
     {
-      (*result_ptr)["network"] = *((this->srcIP)->dumpJ());
+      (*result_ptr)["network"] = *((this->srcIP)->dump2JSON());
     }
 
   if (this->when != NULL)
@@ -120,5 +118,8 @@ Flight::Conflict_of_Interest()
 double
 Flight::getDistance()
 {
-  return (this->departure)->distance(this->arrival);
+  if ((this->arrival != NULL) && (this->departure != NULL))
+    return (this->departure)->distance(*(this->arrival));
+  else
+    return 0.0;
 }

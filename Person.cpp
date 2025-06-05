@@ -7,6 +7,7 @@ Person::Person(std::string arg_vsID, std::string arg_name)
   this->vsID = arg_vsID;
   this->name = arg_name;
   this->home = NULL;
+  this->inbox = new std::multimap<std::string, Message *>();
 }
 
 Person::Person(std::string arg_vsID, std::string arg_name, GPS_DD * arg_home_ptr)
@@ -16,7 +17,7 @@ Person::Person(std::string arg_vsID, std::string arg_name, GPS_DD * arg_home_ptr
   this->name = arg_name;
   // was: this->home = arg_home_ptr;
   this->home = new GPS_DD { arg_home_ptr->latitude, arg_home_ptr->longitude };
-
+  this->inbox = new std::multimap<std::string, Message *>();
 }
 
 Person::Person()
@@ -25,6 +26,7 @@ Person::Person()
   this->vsID = "";
   this->name = "";
   this->home = NULL;
+  this->inbox = new std::multimap<std::string, Message *>();
 }
 
 Person::~Person()
@@ -42,6 +44,33 @@ Person::~Person()
       //}
       delete this->home;
     }
+}
+
+bool
+Person::message
+(Json::Value myv)
+{
+  if ((myv.isNull() != true) &&
+      (myv.isObject() == true) &&
+      (myv["subject"].isNull() != true) &&
+      (myv["subject"].isString() == true) &&
+      ((myv["subject"].asString()).size() > 0))
+    {
+      std::cout << myv.toStyledString() << std::endl;
+      Message *m = new Message();
+      m->JSON2Object(&myv);
+      if (m != NULL)
+	{
+	  (this->inbox)->insert(std::pair<std::string, Message *>(m->subject, m));
+	  return true;
+	}
+      std::cout << "{\"error\":\"failed to JSON2Message()\"}\n";
+    }
+  else
+    {
+      std::cout << "{\"error\":\"incorrect message format\"}\n";
+    }
+  return false;
 }
 
 void

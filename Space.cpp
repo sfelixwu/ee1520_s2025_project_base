@@ -6,7 +6,7 @@ Space::Space
 {
 }
 
-Json::Value * Space::dumpJ
+Json::Value * Space::dump2JSON
 (void)
 {
   return NULL;

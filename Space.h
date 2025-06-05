@@ -12,7 +12,7 @@ class Space : public Target
   std::map<Person *, std::string> * people;
 
   Space(void);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _SPACE_H_ */

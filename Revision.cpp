@@ -7,7 +7,7 @@ Revision::Revision
   this->revision_time = NULL;
 }
 
-Json::Value * Revision::dumpJ
+Json::Value * Revision::dump2JSON
 (void)
 {
   Json::Value *result_ptr = new Json::Value();

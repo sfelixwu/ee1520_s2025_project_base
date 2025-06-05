@@ -18,7 +18,7 @@ class Target : public Core
   std::vector<Transaction *> * history;
   
   Target(void);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _TARGET_H_ */

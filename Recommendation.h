@@ -17,7 +17,7 @@ class Recommendation : public Message
   std::string keyword;
   Recommendation(std::string arg_s, std::string arg_c, Relation * arg_f, Core * arg_t,
 	 std::string arg_k, JvTime * arg_ex);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _RECOMMENDATION_H_ */

@@ -6,7 +6,7 @@ Fridge::Fridge
 {
 }
 
-Json::Value * Fridge::dumpJ
+Json::Value * Fridge::dump2JSON
 (void)
 {
   return NULL;

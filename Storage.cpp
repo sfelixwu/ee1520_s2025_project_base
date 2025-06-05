@@ -6,7 +6,7 @@ Storage::Storage
 {
 }
 
-Json::Value * Storage::dumpJ
+Json::Value * Storage::dump2JSON
 (void)
 {
   return NULL;

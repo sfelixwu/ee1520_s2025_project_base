@@ -14,7 +14,7 @@ class Revision : public Message
   JvTime *revision_time;
   // Message(std::string arg_s) { this->content = arg_s; this->revision_time = NULL; }
   Revision(std::string arg_s);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _REVISION_H_ */

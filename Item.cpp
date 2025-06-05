@@ -6,7 +6,7 @@ Item::Item
 {
 }
 
-Json::Value * Item::dumpJ
+Json::Value * Item::dump2JSON
 (void)
 {
   return NULL;

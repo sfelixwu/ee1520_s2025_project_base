@@ -18,7 +18,7 @@ class Storage : public Target
   std::vector<Item         *> * content;
 
   Storage(void);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
   virtual std::vector<Person *> * whoAccessed(void);
 };
 

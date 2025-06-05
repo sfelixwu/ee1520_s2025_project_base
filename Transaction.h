@@ -5,6 +5,7 @@
 #include "Core.h"
 
 // Transaction.h
+#include "IP.h"
 #include "JvTime.h"
 #include "Person.h"
 #include "Relation.h"
@@ -41,7 +42,7 @@ class Transaction : public Core
   Transaction(std::string, std::string, std::string, std::string,
 	      unsigned int, Person *,
 	      GPS_DD *, IP_Address *, JvTime *);
-  virtual Json::Value * dumpJ();
+  virtual Json::Value * dump2JSON();
 };
 
 class Airline

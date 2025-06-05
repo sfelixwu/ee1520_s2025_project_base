@@ -18,7 +18,7 @@ class Coupon : public Message
   double discount;
   Coupon(std::string arg_s, std::string arg_c, Core * arg_f, Core * arg_t,
 	 Product * arg_p, JvTime * arg_ex, double arg_discount);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _COUPON_H_ */

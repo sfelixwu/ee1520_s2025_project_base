@@ -6,12 +6,12 @@ Grocery::Grocery
 {
 }
 
-Json::Value * Grocery::dumpJ
+Json::Value * Grocery::dump2JSON
 (void)
 {
   Json::Value *result_ptr = new Json::Value();
 
-  Json::Value *core_ptr = this->Core::dumpJ();
+  Json::Value *core_ptr = this->Core::dump2JSON();
   if (core_ptr != NULL)
     {
       if (((*core_ptr).isNull() != true) &&

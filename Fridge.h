@@ -10,7 +10,7 @@ class Fridge : public Storage
  protected:
  public:
   Fridge(void);
-  virtual Json::Value * dumpJ(void);
+  virtual Json::Value * dump2JSON(void);
 };
 
 #endif /* _FRIDGE_H_ */

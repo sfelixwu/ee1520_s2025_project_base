@@ -7,6 +7,7 @@
 #include "Commutable.h"
 #include "GPS.h"
 #include "JvTime.h"
+#include "Message.h"
 
 using namespace std;
 
@@ -20,6 +21,7 @@ public:
   std::string vsID;
   std::string name;
   GPS_DD * home;
+  std::multimap<std::string, Message *> * inbox;
 
   // GPS_DD current_Location; // option #1
   // Thing  phone;            // option #2
@@ -36,6 +38,7 @@ public:
 
   bool operator==(Person& aPerson);
 
+  virtual bool message(Json::Value);
   virtual Json::Value * dump2JSON(void);
   virtual void JSON2Object(Json::Value *);
 };

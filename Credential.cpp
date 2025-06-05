@@ -4,16 +4,15 @@
 Credential::Credential
 (std::string arg_s, std::string arg_c, Core * arg_f, Core * arg_t,
  std::string arg_k, JvTime *arg_ex)
-  : Message { arg_s, arg_c, arg_f, arg_t }
 {
   this->expiration = arg_ex;
   this->keyword    = arg_k;
 }
 
-Json::Value * Credential::dumpJ
+Json::Value * Credential::dump2JSON
 (void)
 {
-  Json::Value *result_ptr = this->Message::dumpJ();
+  Json::Value *result_ptr = this->Message::dump2JSON();
 
   if (this->expiration != NULL)
     {
