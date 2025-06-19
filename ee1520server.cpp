@@ -299,6 +299,43 @@ Myee1520Server::update(const std::string& updating_json)
   if (exception_count > 0)
     {
       (*rj_ptr)["exceptions"] = *(lv_exception.dump2JSON());
+      int i, j;
+      Exception_Info EU_array[1024];
+      int EU_index = 0;
+      for (i = 0; i < exception_count; i++)
+	{
+	  printf("Here 11211\n");
+
+	  struct Exception_Info *ei = (lv_exception_ptr->info_vector)[i];
+	  int found = 0;
+	  for (j = 0; j < EU_index; j++)
+	    {
+	      printf("Here 112111\n");
+
+	      if ((ei->where_code == (EU_array[j]).where_code) &&
+		  (ei->what_code == (EU_array[j]).what_code) &&
+		  (ei->which_string == (EU_array[j]).which_string))
+		{
+		  found = 1;
+		  break;
+		}
+	    }
+	  
+	  if (found == 0)
+	    {
+	      printf("Here 11211121\n");
+	      (EU_array[EU_index]).where_code = ei->where_code;
+	      (EU_array[EU_index]).what_code = ei->what_code;
+	      (EU_array[EU_index]).which_string = ei->which_string;
+	      EU_index++;
+	      printf("Here 11211122\n");
+	    }
+	}
+      printf("Here 115\n");
+
+      (*rj_ptr)["unique exception count"] = EU_index;
+      if (EU_index >= 20)
+	(*rj_ptr)["hw3 score"] = 20;
     }
   // printf("Here 2.116 [%p]\n", post_ptr);
 
